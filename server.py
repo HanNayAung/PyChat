@@ -136,7 +136,7 @@ while True:
                             picture = send_picture("code.png")
                             name = server_name()
                             client_socket.send(name['header'] + name['data'] + picture['header'] + picture['data'])
-                            print(name['header'] + name['data'] + picture['header'] + picture['data'])
+                            # print(name['header'] + name['data'] + picture['header'] + picture['data'])
                             print("Sent picture to client.")
 
             # broadcast message over connected clients

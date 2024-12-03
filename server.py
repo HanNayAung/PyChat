@@ -121,7 +121,7 @@ while True:
             user_name = clients[sock]
             print('Received message from {}: {}'.format(user_name["data"].decode("utf-8"), message["data"].decode("utf-8")))
 
-            if message['data'] != b'quite':
+            if message['data'] != b'quit':
                 if message['data'] == b'weather':
                     for client_socket in clients:
                         if client_socket == sock:

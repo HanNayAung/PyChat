@@ -28,7 +28,7 @@ while True:
 
     # wait for user to input a message
     message = input('{} > '.format(my_username))
-    if message == 'quite':
+    if message == 'quit':
         quit()
 
     # if message is not empty  send it

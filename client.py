@@ -12,7 +12,7 @@ import sys
 HEADER_LENGTH = 10
 
 # to connect with server, socket() -> connect()
-ip = "192.168.0.20"
+ip = "192.168.1.55"
 port = 1234
 my_username = input("Username: ")
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
